@@ -1,13 +1,13 @@
 /*********************************************************************************
-*  WEB422 – Assignment 1
-*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
+*  WEB422 – Assignment 2
+*  I declare that this assignment is my own work in accordance with Seneca Academic Policy.  
 *  No part of this assignment has been copied manually or electronically from any other source
 *  (including web sites) or distributed to other students.
 * 
-*  Name: ___Manoj Dhami___________________ Student ID: ___121613202___________ Date: ______5/17/2023__________
-*  Cyclic Link: ____https://harlequin-chinchilla-cap.cyclic.app/___________________________________________________________
+*  Name: ___Manoj Dhami___________________ Student ID: _121613202_________________ Date: ____6/4/2023________________
 *
 ********************************************************************************/ 
+
 
 
 

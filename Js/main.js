@@ -37,9 +37,7 @@ function loadData(title = null) {
         const movieRows = document.querySelectorAll('.moviesTable tbody tr');
         movieRows.forEach(row => {
           row.addEventListener('click', () => {
-              console.log("clicked");
             const movieId = row.dataset.id;
-            console.log(movieId);
             fetch(`https://harlequin-chinchilla-cap.cyclic.app/api/movies/${movieId}`)
               .then(response => response.json())
               .then(movieData => {
