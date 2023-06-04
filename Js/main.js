@@ -4,7 +4,7 @@ const perPage = 10;
 
 // Function to load data based on the title parameter
 function loadData(title = null) {
-    let apiUrl = `/api/movies?page=${page}&perPage=${perPage}`;
+    let apiUrl = `https://harlequin-chinchilla-cap.cyclic.app/api/movies?page=${page}&perPage=${perPage}`;
   
     if (title !== null) {
       apiUrl += `&title=${title}`;
@@ -40,7 +40,7 @@ function loadData(title = null) {
               console.log("clicked");
             const movieId = row.dataset.id;
             console.log(movieId);
-            fetch(`/api/movies/${movieId}`)
+            fetch(`https://harlequin-chinchilla-cap.cyclic.app/api/movies/${movieId}`)
               .then(response => response.json())
               .then(movieData => {
                 console.log(movieData);
