@@ -28,11 +28,14 @@ const db = new MoviesDB();
 //middleware
 app.use(cors());
 app.use(express.json())
-
+//app.use(express.static("Js"));
+app.use('/js', express.static(__dirname + "/js/"));
+app.use('/CSS', express.static(__dirname + "/CSS/"));
 // adding a single GET route which returns the JSON object
 app.get('/', (req, res) => 
 {
-    res.json({message: 'API Listening'})
+    res.sendFile(__dirname + "/index.html")
+    // res.json({message: 'API Listening'})
 })
 
 app.post('/api/movies', (req, res) => {
